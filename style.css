@@ -4,10 +4,13 @@ html{
 }
 *,
 *::before,
-*::after{
+::after{
     box-sizing: inherit;
     margin: 0;
     padding: 0;
+}
+.calc-main{
+    padding: 25px;
 }
 body{
     align-items: center;
@@ -53,14 +56,13 @@ body{
 }
 .calc-button{
     backdrop-filter: blur(5.5px);
-    background: rgba(225,225,255,0.75);
-    border: 1px solid rgba(255,255,255,0.1);
-    box-shadow: 0 4px rgba(35,35,35,0.1);
+    /* border: 1px solid rgba(255,255,255,0.1); */
+    /* box-shadow: 0 4px rgba(35,35,35,0.1); */
     color: black;
     flex-basis: 23%;
     font-family: inherit;
     font-size: 24px;
-    height: 25px;
+    height: 29px;
 }
 .calc-button:last-child{
     backdrop-filter: blur(5.5px);
@@ -68,8 +70,6 @@ body{
     border-radius: 15px;
     box-shadow: 0 4px 30px rgba(35,35,35,0.1);
     color: black;
-    background:violet;
-
 }
 .calc-button:last-child:hover{
     background-color: inherit;
